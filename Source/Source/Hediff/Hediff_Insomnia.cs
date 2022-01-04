@@ -1,9 +1,11 @@
-﻿using System;
+﻿using RimWorld;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Verse;
+using Verse.AI;
 
 namespace PsychosisPlus
 {
@@ -11,7 +13,11 @@ namespace PsychosisPlus
     {
         public override void Tick()
         {
-            Log.Message(pawn.jobs.curJob.GetType().ToString());
+            if (pawn?.jobs?.curJob?.def == JobDefOf.LayDown)
+            {
+                pawn?.jobs?.EndCurrentJob(JobCondition.InterruptForced);
+                pawn?.mindState?.mentalStateHandler?.TryStartMentalState(DefDatabase<MentalStateDef>.GetNamed("Wander_Insomnia"));
+            }
         }
     }
 }

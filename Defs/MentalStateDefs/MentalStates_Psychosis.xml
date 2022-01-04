@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <MentalStateDef ParentName="WanderPsychotic">
+    <MentalStateDef Class="PsychosisPlus.MentalStateDef_WanderInsomnia" ParentName="WanderPsychotic">
         <defName>Wander_Insomnia</defName>
+        <stateClass>PsychosisPlus.MentalState_WanderInsomnia</stateClass>
         <minTicksBeforeRecovery>1500</minTicksBeforeRecovery>
         <maxTicksBeforeRecovery>2500</maxTicksBeforeRecovery>
         <beginLetterDef>NegativeEvent</beginLetterDef>
+        <beginLetterLabel>insomnia</beginLetterLabel>
         <baseInspectLine>Mental state: wandering by insomina</baseInspectLine>
-        <beginLetter>{0} is wandering around because of insomnia.</beginLetter>
-        <recoveryMessage>{0} is no longer wandering.</recoveryMessage>
+        <beginLetter></beginLetter>
+        <recoveryMessage></recoveryMessage>
+        <recoverFromSleep>false</recoverFromSleep>
     </MentalStateDef>
 </Defs>

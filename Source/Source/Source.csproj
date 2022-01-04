@@ -55,6 +55,8 @@
     <Compile Include="Hediff\Base\Hediff_Psychosis.cs" />
     <Compile Include="Hediff\Hediff_Insomnia.cs" />
     <Compile Include="Hediff\Hediff_PTSD.cs" />
+    <Compile Include="MentalState\Def\MentalStateDef_WanderInsomnia.cs" />
+    <Compile Include="MentalState\MentalState_WanderInsomnia.cs" />
     <Compile Include="ThoughtWorker\ThoughtWorker_Insomnia.cs" />
     <Compile Include="ThoughtWorker\ThoughtWorker_PTSD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

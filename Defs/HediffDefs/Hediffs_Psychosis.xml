@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <HediffDef ParentName="DiseaseBase">
+    <HediffDef ParentName="DangerousPsychosis">
         <defName>PTSD</defName>
         <label>PTSD</label>
-        <description>mental and behavioral disorder that can develop because of exposure to a traumatic event.</description>
+        <description>Mental and behavioral disorder that can develop because of exposure to a traumatic event.</description>
         <hediffClass>PsychosisPlus.Hediff_PTSD</hediffClass>
         <stages>
             <li>
                 <mentalBreakMtbDays>0.25</mentalBreakMtbDays>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="MildPsychosis">
+        <defName>Insomnia</defName>
+        <label>insomnia</label>
+        <description>A sleep disorder in which people have trouble sleeping. They may have difficulty falling asleep, or staying asleep as long as desired.</description>
+        <hediffClass>PsychosisPlus.Hediff_Insomnia</hediffClass>
+        <lethalSeverity>1</lethalSeverity>
+        <stages>
+            <li>
+                <label>mild</label>
+            </li>
+            <li>
+                <label>serious</label>
+                <minSeverity>0.15</minSeverity>
+            </li>
+            <li>
+                <label>extreme</label>
+                <minSeverity>0.30</minSeverity>
+            </li>
+            <li>
+                <label>painful</label>
+                <minSeverity>0.62</minSeverity>
             </li>
         </stages>
     </HediffDef>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <PTSD.label>외상 후 스트레스 장애</PTSD.label>
+    <PTSD.description>외상성 사건을 겪은 후 발생하는 정신 및 행동성 스트레스 장애입니다.</PTSD.description>
+
+    <Insomnia.label>불면증</Insomnia.label>
+    <Insomnia.description>수면에 어려움을 겪는 정신 질환입니다. 잠에 드는 데에 어려움을 겪거나 깊은 잠을 잘 수 없습니다.</Insomnia.description>
+    <Insomnia.stages.0.label>경미한</Insomnia.stages.0.label>
+    <Insomnia.stages.1.label>심각한</Insomnia.stages.1.label>
+    <Insomnia.stages.2.label>극심한</Insomnia.stages.2.label>
+    <Insomnia.stages.3.label>고통스러운</Insomnia.stages.3.label>
+
+</LanguageData>

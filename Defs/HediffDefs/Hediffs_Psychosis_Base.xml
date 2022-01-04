@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef Name="Psychosis" ParentName="DiseaseBase" Abstract="True">
+        <hediffClass>PsychosisPlus.Hediff_Psychosis</hediffClass>
+    </HediffDef>
+
+    <HediffDef Name="DangerousPsychosis" ParentName="Psychosis" Abstract="True">
+        <hediffClass>PsychosisPlus.Hediff_DangerousPsychosis</hediffClass>
+    </HediffDef>
+
+    <HediffDef Name="NormalPsychosis" ParentName="Psychosis" Abstract="True">
+        <hediffClass>PsychosisPlus.Hediff_NormalPsychosis</hediffClass>
+    </HediffDef>
+
+    <HediffDef Name="MildPsychosis" ParentName="Psychosis" Abstract="True">
+        <hediffClass>PsychosisPlus.Hediff_MildPsychosis</hediffClass>
+    </HediffDef>
+</Defs>

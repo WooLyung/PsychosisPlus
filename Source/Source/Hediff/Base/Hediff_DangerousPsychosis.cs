@@ -4,7 +4,7 @@ using Verse;
 
 namespace PsychosisPlus
 {
-    public class Hediff_PTSD : Hediff_DangerousPsychosis
+    public abstract class Hediff_DangerousPsychosis : Hediff_Psychosis
     {
     }
 }

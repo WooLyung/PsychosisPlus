@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThoughtDef>
+        <defName>PTSD</defName>
+        <hediff>PTSD</hediff>
+        <workerClass>PsychosisPlus.ThoughtWorker_PTSD</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>PTSD</label>
+                <description>...</description>
+                <baseMoodEffect>-10</baseMoodEffect>
+            </li>
+        </stages>
+  </ThoughtDef>
+</Defs>

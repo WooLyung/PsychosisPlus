@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PsychosisPlus\Assemblies\PsychosisPlus.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PsychosisPlus\Assemblies\PsychosisPlus.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PsychosisPlus\Source\Source\obj\Debug\Source.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PsychosisPlus\Source\Source\obj\Debug\Source.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PsychosisPlus\Source\Source\obj\Debug\PsychosisPlus.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PsychosisPlus\Source\Source\obj\Debug\PsychosisPlus.pdb

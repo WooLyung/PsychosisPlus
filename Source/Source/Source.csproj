@@ -53,12 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Def\Hediff\Base\Hediff_MildPsychosis.cs" />
-    <Compile Include="Def\Hediff\Base\Hediff_NormalPsychosis.cs" />
-    <Compile Include="Def\Hediff\Base\Hediff_DangerousPsychosis.cs" />
-    <Compile Include="Def\Hediff\Base\Hediff_Psychosis.cs" />
-    <Compile Include="Def\Hediff\Hediff_Insomnia.cs" />
-    <Compile Include="Def\Hediff\Hediff_PTSD.cs" />
+    <Compile Include="Def\Hediff\Hediff\PTSD\Hediff_PTSD_Explosion.cs" />
+    <Compile Include="Def\Hediff\Hediff_MildPsychosis.cs" />
+    <Compile Include="Def\Hediff\Hediff_NormalPsychosis.cs" />
+    <Compile Include="Def\Hediff\Hediff_DangerousPsychosis.cs" />
+    <Compile Include="Def\Hediff\Hediff_Psychosis.cs" />
+    <Compile Include="Def\Hediff\Hediff\Hediff_Insomnia.cs" />
+    <Compile Include="Def\Hediff\Hediff\PTSD\Hediff_PTSD.cs" />
     <Compile Include="Def\MentalState\Def\MentalStateDef_WanderInsomnia.cs" />
     <Compile Include="Def\MentalState\MentalState_WanderInsomnia.cs" />
     <Compile Include="Def\ThoughtWorker\ThoughtWorker_Insomnia.cs" />

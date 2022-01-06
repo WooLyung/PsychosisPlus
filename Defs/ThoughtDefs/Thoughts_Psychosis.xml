@@ -2,21 +2,19 @@
 <Defs>
     <ThoughtDef>
         <defName>PTSD</defName>
-        <hediff>PTSD</hediff>
         <workerClass>PsychosisPlus.ThoughtWorker_PTSD</workerClass>
         <validWhileDespawned>true</validWhileDespawned>
         <stages>
             <li>
                 <label>PTSD</label>
                 <description>somethimes I remember the nightmare of that time.</description>
-                <baseMoodEffect>-8</baseMoodEffect>
+                <baseMoodEffect>-5</baseMoodEffect>
             </li>
         </stages>
   </ThoughtDef>
 
     <ThoughtDef>
         <defName>Insomnia</defName>
-        <hediff>Insomnia</hediff>
         <workerClass>PsychosisPlus.ThoughtWorker_Insomnia</workerClass>
         <validWhileDespawned>true</validWhileDespawned>
         <stages>

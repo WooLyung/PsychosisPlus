@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <HediffDef ParentName="DangerousPsychosis">
-        <defName>PTSD</defName>
+    <HediffDef Name="PTSD" ParentName="DangerousPsychosis" Abstract="True">
         <label>PTSD</label>
         <description>Mental and behavioral disorder that can develop because of exposure to a traumatic event.</description>
         <hediffClass>PsychosisPlus.Hediff_PTSD</hediffClass>
         <stages>
             <li>
-                <mentalBreakMtbDays>0.25</mentalBreakMtbDays>
+                <mentalBreakMtbDays>10</mentalBreakMtbDays>
             </li>
         </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="PTSD">
+        <defName>PTSDExplosion</defName>
+        <label>PTSD (Explosion)</label>
+        <hediffClass>PsychosisPlus.Hediff_PTSD_Explosion</hediffClass>
     </HediffDef>
 
     <HediffDef ParentName="MildPsychosis">

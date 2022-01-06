@@ -2,6 +2,7 @@
 <LanguageData>
 
     <PTSD.label>외상 후 스트레스 장애</PTSD.label>
+    <PTSDExplosion.label>외상 후 스트레스 장애 (폭발)</PTSDExplosion.label>
     <PTSD.description>외상성 사건을 겪은 후 발생하는 정신 및 행동성 스트레스 장애입니다.</PTSD.description>
 
     <Insomnia.label>불면증</Insomnia.label>

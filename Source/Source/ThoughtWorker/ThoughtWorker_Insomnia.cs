@@ -13,10 +13,26 @@ namespace PsychosisPlus
     {
         protected override ThoughtState CurrentStateInternal(Pawn p)
         {
-            foreach (var hediff in p?.health?.hediffSet?.GetHediffs<Hediff_Insomnia>())
-                return ThoughtState.ActiveDefault;
-            return ThoughtState.Inactive;
-            throw new NotImplementedException();
+            Hediff_Insomnia hediff = null;
+
+            foreach (var entry in p?.health?.hediffSet?.GetHediffs<Hediff_Insomnia>())
+                hediff = entry;
+
+            if (hediff == null || p.needs.rest.CurLevel >= 0.5f)
+            {
+                return ThoughtState.Inactive;
+            }
+            else
+            {   
+                if (hediff.Severity < 0.15f)
+                    return ThoughtState.ActiveAtStage(0);
+                else if (hediff.Severity < 0.30f)
+                    return ThoughtState.ActiveAtStage(1);
+                else if (hediff.Severity < 0.62f)
+                    return ThoughtState.ActiveAtStage(2);
+                else
+                    return ThoughtState.ActiveAtStage(3);
+            }
         }
     }
 }

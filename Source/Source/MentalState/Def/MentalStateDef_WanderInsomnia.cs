@@ -9,5 +9,9 @@ namespace PsychosisPlus
 {
     public class MentalStateDef_WanderInsomnia : MentalStateDef
     {
+        public MentalStateDef_WanderInsomnia()
+        {
+            stateClass = typeof(MentalState_WanderInsomnia);
+        }
     }
 }

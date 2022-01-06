@@ -16,15 +16,6 @@ namespace PsychosisPlus
             return RandomSocialMode.Off;
         }
 
-        public override bool AllowRestingInBed
-        {
-            get
-            {
-                if (pawn.needs.rest.CurLevel <= 0.05f)
-                    return true;
-                else
-                    return false;
-            }
-        }
+        public override bool AllowRestingInBed => false;
     }
 }

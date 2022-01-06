@@ -32,6 +32,7 @@
             </li>
             <li>
                 <label>painful</label>
+                <lifeThreatening>true</lifeThreatening>
                 <minSeverity>0.62</minSeverity>
             </li>
         </stages>

@@ -9,7 +9,6 @@ using Verse.AI;
 
 namespace PsychosisPlus
 {
-    [Serializable]
     public class Hediff_Insomnia : Hediff_MildPsychosis
     {
         int wanderCool = 0;
@@ -26,8 +25,6 @@ namespace PsychosisPlus
 
         public override void Tick()
         {
-            Severity = 0.99f;
-
             if (pawn?.jobs?.curJob?.def == JobDefOf.LayDown)
             {
                 if (wanderTime++ > wanderCool && !pawn.health.Downed)

@@ -18,7 +18,7 @@ namespace PsychosisPlus
             foreach (var entry in p?.health?.hediffSet?.GetHediffs<Hediff_Insomnia>())
                 hediff = entry;
 
-            if (hediff == null || p.needs.rest.CurLevel >= 0.5f)
+            if (hediff == null || p.needs.rest.CurLevel >= 0.7f)
             {
                 return ThoughtState.Inactive;
             }

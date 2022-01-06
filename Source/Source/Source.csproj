@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\bin\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -49,17 +53,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Hediff\Base\Hediff_MildPsychosis.cs" />
-    <Compile Include="Hediff\Base\Hediff_NormalPsychosis.cs" />
-    <Compile Include="Hediff\Base\Hediff_DangerousPsychosis.cs" />
-    <Compile Include="Hediff\Base\Hediff_Psychosis.cs" />
-    <Compile Include="Hediff\Hediff_Insomnia.cs" />
-    <Compile Include="Hediff\Hediff_PTSD.cs" />
-    <Compile Include="MentalState\Def\MentalStateDef_WanderInsomnia.cs" />
-    <Compile Include="MentalState\MentalState_WanderInsomnia.cs" />
-    <Compile Include="ThoughtWorker\ThoughtWorker_Insomnia.cs" />
-    <Compile Include="ThoughtWorker\ThoughtWorker_PTSD.cs" />
+    <Compile Include="Def\Hediff\Base\Hediff_MildPsychosis.cs" />
+    <Compile Include="Def\Hediff\Base\Hediff_NormalPsychosis.cs" />
+    <Compile Include="Def\Hediff\Base\Hediff_DangerousPsychosis.cs" />
+    <Compile Include="Def\Hediff\Base\Hediff_Psychosis.cs" />
+    <Compile Include="Def\Hediff\Hediff_Insomnia.cs" />
+    <Compile Include="Def\Hediff\Hediff_PTSD.cs" />
+    <Compile Include="Def\MentalState\Def\MentalStateDef_WanderInsomnia.cs" />
+    <Compile Include="Def\MentalState\MentalState_WanderInsomnia.cs" />
+    <Compile Include="Def\ThoughtWorker\ThoughtWorker_Insomnia.cs" />
+    <Compile Include="Def\ThoughtWorker\ThoughtWorker_PTSD.cs" />
+    <Compile Include="Patch\Event_Catcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PsychosisPlus.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <ThoughtDef>
+            <defName>PTSDTrauma</defName>
+            <durationDays>0.5</durationDays>
+            <thoughtClass>PsychosisPlus.Thought_PTSDTrauma</thoughtClass>
+            <stackLimit>1</stackLimit>
+            <stages>
+                <li>
+                    <label>PTSD trauma</label>
+                    <description>please please please please</description>
+                    <baseMoodEffect>-20</baseMoodEffect>
+                </li>
+            </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
         <defName>PTSD</defName>
         <workerClass>PsychosisPlus.ThoughtWorker_PTSD</workerClass>
         <validWhileDespawned>true</validWhileDespawned>

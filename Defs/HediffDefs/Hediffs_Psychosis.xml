@@ -7,6 +7,13 @@
         <stages>
             <li>
                 <mentalBreakMtbDays>10</mentalBreakMtbDays>
+                <socialFightChanceFactor>1.4</socialFightChanceFactor>
+                <capMods>
+                    <li>
+                        <capacity>Talking</capacity>
+                        <setMax>0.5</setMax>
+                    </li>
+                </capMods>
             </li>
         </stages>
     </HediffDef>

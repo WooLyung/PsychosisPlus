@@ -4,6 +4,9 @@
     <PTSD.stages.0.label>외상 후 스트레스 장애</PTSD.stages.0.label>
     <PTSD.stages.0.description>때때로 그 때의 악몽이 떠올라.</PTSD.stages.0.description>
 
+    <PTSDTrauma.stages.0.label>외상 후 스트레스 장애 트라우마</PTSDTrauma.stages.0.label>
+    <PTSDTrauma.stages.0.description>제발 제발 제발 제발</PTSDTrauma.stages.0.description>
+
     <Insomnia.stages.0.label>경미한 불면증</Insomnia.stages.0.label>
     <Insomnia.stages.0.description>피곤하네.</Insomnia.stages.0.description>
     <Insomnia.stages.1.label>심각한 불면증</Insomnia.stages.1.label>

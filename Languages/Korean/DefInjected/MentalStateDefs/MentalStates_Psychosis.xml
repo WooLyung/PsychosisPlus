@@ -4,4 +4,7 @@
     <Wander_Insomnia.beginLetterLabel>불면증</Wander_Insomnia.beginLetterLabel>
     <Wander_Insomnia.baseInspectLine>상태: 불면증으로 방황중</Wander_Insomnia.baseInspectLine>
 
+    <Wander_Trauma.beginLetterLabel>트라우마</Wander_Trauma.beginLetterLabel>
+    <Wander_Trauma.baseInspectLine>상태: 트라우마</Wander_Trauma.baseInspectLine>
+
 </LanguageData>

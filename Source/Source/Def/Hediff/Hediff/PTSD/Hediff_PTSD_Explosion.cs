@@ -24,9 +24,21 @@ namespace PsychosisPlus
             {
                 pawn.mindState.mentalStateHandler.TryStartMentalState(DefDatabase<MentalStateDef>.GetNamed("Wander_Insomnia"));
 
-                IntVec3 to = pawn.Position - (center - pawn.Position);
-                Job job = new Job(JobDefOf.FleeAndCower, to);
-                pawn.jobs.StartJob(job);
+                IntVec3 dir = pawn.Position - center;
+                (float, float) toNormal = ((float)dir.x, (float)dir.z);
+                float scale = (float)Math.Sqrt(toNormal.Item1 * toNormal.Item1 + toNormal.Item2 * toNormal.Item2);
+                toNormal = (toNormal.Item1 / scale, toNormal.Item2 / scale);
+
+                for (int i = 10; i < 30; i++)
+                {
+                    IntVec3 to = pawn.Position + new IntVec3((int)(toNormal.Item1 * i), pawn.Position.y, (int)(toNormal.Item2 * i));
+                    if (pawn.Map.thingGrid.ThingsAt(to).EnumerableCount() == 0)
+                    {
+                        Job job = new Job(JobDefOf.FleeAndCower, to);
+                        pawn.jobs.StartJob(job);
+                        break;
+                    }
+                }
             }
         }
     }

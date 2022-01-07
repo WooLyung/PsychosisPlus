@@ -11,7 +11,7 @@
                 <baseMoodEffect>-5</baseMoodEffect>
             </li>
         </stages>
-  </ThoughtDef>
+    </ThoughtDef>
 
     <ThoughtDef>
         <defName>Insomnia</defName>

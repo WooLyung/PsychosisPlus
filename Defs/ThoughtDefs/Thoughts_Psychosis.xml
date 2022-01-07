@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <ThoughtDef>
-            <defName>PTSDTrauma</defName>
-            <durationDays>0.5</durationDays>
-            <thoughtClass>PsychosisPlus.Thought_PTSDTrauma</thoughtClass>
-            <stackLimit>1</stackLimit>
-            <stages>
-                <li>
-                    <label>PTSD trauma</label>
-                    <description>please please please please</description>
-                    <baseMoodEffect>-20</baseMoodEffect>
-                </li>
-            </stages>
+        <defName>PanicAttack</defName>
+        <workerClass>PsychosisPlus.ThoughtWorker_PanicAttack</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>panic attack</label>
+                <description>...</description>
+                <baseMoodEffect>-30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>PTSDTrauma</defName>
+        <durationDays>0.5</durationDays>
+        <thoughtClass>PsychosisPlus.Thought_PTSDTrauma</thoughtClass>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>PTSD trauma</label>
+                <description>please please please please</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+            </li>
+        </stages>
     </ThoughtDef>
 
     <ThoughtDef>

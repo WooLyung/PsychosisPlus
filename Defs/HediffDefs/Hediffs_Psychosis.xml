@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <HediffDef ParentName="DangerousPsychosis">
+        <defName>PanicDisorder</defName>
+        <label>panic disorder</label>
+        <description>Mental disorder in which suddely serious panic attacks occur.</description>
+        <hediffClass>PsychosisPlus.Hediff_PanicDisorder</hediffClass>
+    </HediffDef>
+
+    <HediffDef ParentName="DiseaseBase">
+        <defName>PanicAttack</defName>
+        <label>panic attack</label>
+        <hediffClass>PsychosisPlus.Hediff_PanicAttack</hediffClass>
+        <description>Sudden attack casued by panic disorder. It is accompanied by symptoms such as mental disorders and shortness of breath.</description>
+        <comps>
+            <li Class="HediffCompProperties_TendDuration">
+                <baseTendDurationHours>2</baseTendDurationHours>
+                <disappearsAtTotalTendQuality>2</disappearsAtTotalTendQuality>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <lifeThreatening>true</lifeThreatening>
+                <painOffset>0.5</painOffset>
+                <capMods>
+                    <li>
+                        <capacity>BloodPumping</capacity>
+                        <setMax>0.8</setMax>
+                    </li>
+                    <li>
+                        <capacity>Breathing</capacity>
+                        <setMax>0.4</setMax>
+                    </li>
+                    <li>
+                        <capacity>Metabolism</capacity>
+                        <setMax>0.4</setMax>
+                    </li>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.1</setMax>
+                    </li>
+                    <li>
+                        <capacity>Hearing</capacity>
+                        <setMax>0</setMax>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <setMax>0.3</setMax>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <tendable>true</tendable>
+    </HediffDef>
+
     <HediffDef Name="PTSD" ParentName="DangerousPsychosis" Abstract="True">
         <label>PTSD</label>
         <description>Mental and behavioral disorder that can develop because of exposure to a traumatic event.</description>

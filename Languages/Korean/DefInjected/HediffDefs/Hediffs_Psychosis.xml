@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+    <PanicDisorder.label>공황 장애</PanicDisorder.label>
+    <PanicDisorder.description>갑작스럽게 심각한 공황 발작이 발생하는 정신 질환입니다.</PanicDisorder.description>
+
+    <PanicAttack.label>공황 발작</PanicAttack.label>
+    <PanicAttack.description>공황 장애에 의해 갑작스럽게 발생한 발작입니다. 정신 이상, 호흡 곤란 등의 증상이 동반됩니다.</PanicAttack.description>
+
     <PTSD.label>외상 후 스트레스 장애</PTSD.label>
     <PTSDExplosion.label>외상 후 스트레스 장애 (폭발)</PTSDExplosion.label>
     <PTSD.description>외상성 사건을 겪은 후 발생하는 정신 및 행동성 스트레스 장애입니다.</PTSD.description>

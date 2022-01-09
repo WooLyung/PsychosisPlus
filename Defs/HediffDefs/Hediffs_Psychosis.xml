@@ -77,6 +77,12 @@
         <hediffClass>PsychosisPlus.Hediff_PTSD_Explosion</hediffClass>
     </HediffDef>
 
+    <HediffDef ParentName="PTSD">
+        <defName>PTSDFire</defName>
+        <label>PTSD (Fire)</label>
+        <hediffClass>PsychosisPlus.Hediff_PTSD_Fire</hediffClass>
+    </HediffDef>
+
     <HediffDef ParentName="MildPsychosis">
         <defName>Insomnia</defName>
         <label>insomnia</label>

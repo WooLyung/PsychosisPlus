@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Def\Hediff\Hediff\Hediff_PanicDisorder.cs" />
     <Compile Include="Def\Hediff\Hediff\Hediff_PanicAttack.cs" />
+    <Compile Include="Def\Hediff\Hediff\PTSD\Hediff_PTSD_Fire.cs" />
     <Compile Include="Def\Hediff\Hediff\PTSD\Hediff_PTSD_Explosion.cs" />
     <Compile Include="Def\Hediff\Hediff_MildPsychosis.cs" />
     <Compile Include="Def\Hediff\Hediff_NormalPsychosis.cs" />
@@ -67,8 +68,8 @@
     <Compile Include="Def\MentalState\MentalState_Trauma.cs" />
     <Compile Include="Def\MentalState\MentalState_WanderInsomnia.cs" />
     <Compile Include="Def\Thought\ThoughtWorker\ThoughtWorker_Insomnia.cs" />
-    <Compile Include="Def\Thought\ThoughtWorker\ThoughtWorker_PanicAttack.cs" />
     <Compile Include="Def\Thought\ThoughtWorker\ThoughtWorker_PTSD.cs" />
+    <Compile Include="Def\Thought\Thought_PanicAttack.cs" />
     <Compile Include="Def\Thought\Thought_PTSDTrauma.cs" />
     <Compile Include="Patch\Event_Catcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

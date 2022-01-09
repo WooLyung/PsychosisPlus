@@ -16,8 +16,8 @@
     <MentalStateDef Class="PsychosisPlus.MentalStateDef_Trauma" ParentName="WanderPsychotic">
         <defName>Wander_Trauma</defName>
         <stateClass>PsychosisPlus.MentalState_Trauma</stateClass>
-        <minTicksBeforeRecovery>1500</minTicksBeforeRecovery>
-        <maxTicksBeforeRecovery>2500</maxTicksBeforeRecovery>
+        <minTicksBeforeRecovery>10000</minTicksBeforeRecovery>
+        <maxTicksBeforeRecovery>15000</maxTicksBeforeRecovery>
         <beginLetterDef>NegativeEvent</beginLetterDef>
         <beginLetterLabel>insomnia</beginLetterLabel>
         <baseInspectLine>Mental state: trauma</baseInspectLine>

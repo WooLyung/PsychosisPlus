@@ -2,8 +2,8 @@
 <Defs>
     <ThoughtDef>
         <defName>PanicAttack</defName>
-        <workerClass>PsychosisPlus.ThoughtWorker_PanicAttack</workerClass>
-        <validWhileDespawned>true</validWhileDespawned>
+        <durationDays>1</durationDays>
+        <thoughtClass>PsychosisPlus.Thought_PanicAttack</thoughtClass>
         <stages>
             <li>
                 <label>panic attack</label>

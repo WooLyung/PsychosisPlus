@@ -1,11 +1,6 @@
 ﻿using RimWorld;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Verse;
-using Verse.AI;
 
 namespace PsychosisPlus
 {
@@ -30,6 +25,7 @@ namespace PsychosisPlus
                 panicTime = 0;
                 panicCool = newCool;
                 pawn?.health?.AddHediff(DefDatabase<HediffDef>.GetNamed("PanicAttack"));
+                pawn?.needs?.mood?.thoughts?.memories?.TryGainMemory(DefDatabase<ThoughtDef>.GetNamed("PanicAttack"));
             }
         }
 
